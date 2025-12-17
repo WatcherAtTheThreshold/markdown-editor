@@ -1,6 +1,6 @@
 import { loadInitialMarkdown, exportMarkdownFile, importMarkdownFile } from './io.js';
 import { saveDraft, loadDraft, clearDraft } from './storage.js';
-import { buildSectionIndex, jumpToSection, highlightSearch } from './nav.js';
+import { buildSectionIndex, jumpToSection } from './nav.js';
 
 const DRAFT_KEY = 'everything_editor_draft_v1';
 
@@ -206,16 +206,6 @@ async function init(){
     setStatus('Draft cleared');
   });
 
-  // Search (debounced for better performance)
-  let searchTimer;
-  $('#search').addEventListener('input', (e) => {
-    clearTimeout(searchTimer);
-    const q = e.target.value ?? '';
-    if(!q.trim()) return;
-    searchTimer = setTimeout(() => {
-      highlightSearch(editor, q.trim());
-    }, 200);
-  });
 
   // Keyboard shortcut: Ctrl/Cmd+S exports
   window.addEventListener('keydown', (e) => {
