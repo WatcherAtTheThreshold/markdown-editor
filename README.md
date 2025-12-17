@@ -5,7 +5,7 @@ A minimal, focused Markdown editor built for clarity and speed. This tool provid
 ## ✨ Key Features
 
 * **Dual-Mode Editing:** Seamlessly switch between a **WYSIWYG** (What You See Is What You Get) interface and a raw **Markdown** editor.
-* ~~~~**Auto-Generated Navigation:** Your document's `##` headings are automatically turned into a clickable table of contents in the sidebar.
+* **Auto-Generated Navigation:** Your document's `##` headings are automatically turned into a clickable table of contents in the sidebar.
 * **Local Persistence:** Never lose a word. The editor automatically saves drafts to your browser's `localStorage` as you type.
 * **Search & Jump:** Integrated search that highlights text and a "jump-to-section" feature to navigate long documents instantly.
 * **Print-Ready Styles:** A custom print engine that formats your Markdown into a clean, professional PDF-ready document.
