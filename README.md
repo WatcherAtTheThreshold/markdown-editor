@@ -23,10 +23,10 @@ A minimal, focused Markdown editor built for clarity and speed. This tool provid
 ## ⌨️ Keyboard Shortcuts
 
 | Shortcut | Action |
-| :--- | :--- |
-| **Ctrl + S** | Export as `README.md` |
-| **Enter** | New line / New list item |
-| **Tab** | Indent list / Code block |
+| -------- | ------ |
+| Ctrl+S | Export as `README.md` |
+| Enter | New line / New list item |
+| Tab | Indent list / Code block |
 
 ## 🛠️ Technical Overview
 
