@@ -64,7 +64,7 @@ function printMarkdown(editor){
           font-family: 'Courier New', monospace;
           font-size: 85%;
           background: #f6f8fa;
-          border: 1px solid #dfe2e5;
+          border: 1px solid #c8d1db;
           border-radius: 6px;
           padding: 0.2em 0.4em;
         }
