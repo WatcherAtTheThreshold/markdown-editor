@@ -1,6 +1,6 @@
 # Fairweather Prints
 
-Hand printed
+#### Hand printed - 230 gsm, acid free, non-yellowing, matte photo paper.
 
 | What? | Number per sheet | Number of sides |
 | ----- | :--------------: | :-------------: |
