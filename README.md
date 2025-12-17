@@ -1,4 +1,4 @@
-# Everything Repo: Markdown Editor
+# Markdown Editor
 
 A minimal, focused Markdown editor built for clarity and speed. This tool provides a bridge between a quiet, "Zen-like" writing environment and the power of full Markdown/WYSIWYG editing.
 
