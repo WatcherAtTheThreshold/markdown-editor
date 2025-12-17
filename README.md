@@ -1,2 +1,9 @@
-# sketchy-ponderings
-Hand-coded mystical site of reflections and shared thoughts
+# Fairweather Prints
+
+Hand printed
+
+| What? | Number per sheet | Number of sides |
+| ----- | :--------------: | :-------------: |
+| Prints | 1 | 1 |
+| Bookmarks | 5 | 2 |
+| Goddess Cards | 6 | 2 |
