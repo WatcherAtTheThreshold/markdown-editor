@@ -14,7 +14,7 @@ A minimal, focused Markdown editor built for clarity and speed. This tool provid
 
 ## 🚀 Getting Started
 
-1. **Open the Editor:** Simply open `index.html` in any modern web browser.
+1. **Open the Editor:** Simply open `index.html` in any modern web browser, at [https://watcheratthethreshold.github.io/markdown-editor/](https://watcheratthethreshold.github.io/markdown-editor/).
 2. **Write:** Start typing in the main pane. Use the toolbar for formatting or type raw Markdown.
 3. **Navigate:** Click on section titles in the left sidebar to quickly jump to different parts of your document.
 4. **Save & Export:** \* **Autosave:** The editor automatically saves your work as a draft in your browser's local storage.
