@@ -223,10 +223,13 @@ async function init(){
   });
 
   $('#btnExport').addEventListener('click', () => {
-    const md = editor.getMarkdown();
-    exportMarkdownFile(md, 'README.md');
-    toast('Exported README.md');
-  });
+  const md = editor.getMarkdown();
+  const filename = $('#fileName').value.trim() || 'README.md';
+  // Ensure it has .md extension
+  const finalName = filename.endsWith('.md') ? filename : filename + '.md';
+  exportMarkdownFile(md, finalName);
+  toast(`Exported ${finalName}`);
+});
 
   $('#btnImport').addEventListener('click', () => fileInput.click());
   fileInput.addEventListener('change', async () => {
@@ -263,11 +266,13 @@ async function init(){
     const isMac = navigator.platform.toLowerCase().includes('mac');
     const saveCombo = (isMac ? e.metaKey : e.ctrlKey) && e.key.toLowerCase() === 's';
     if(saveCombo){
-      e.preventDefault();
-      const md = editor.getMarkdown();
-      exportMarkdownFile(md, 'README.md');
-      toast('Exported README.md');
-    }
+  e.preventDefault();
+  const md = editor.getMarkdown();
+  const filename = $('#fileName').value.trim() || 'README.md';
+  const finalName = filename.endsWith('.md') ? filename : filename + '.md';
+  exportMarkdownFile(md, finalName);
+  toast(`Exported ${finalName}`);
+}
   });
 
   toast('Ready');
