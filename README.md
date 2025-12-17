@@ -16,10 +16,11 @@ A minimal, focused Markdown editor built for clarity and speed. This tool provid
 
 1. **Open the Editor:** Simply open `index.html` in any modern web browser.
 2. **Write:** Start typing in the main pane. Use the toolbar for formatting or type raw Markdown.
-3. **Navigate:** Click on the section titles in the left sidebar to quickly jump to different parts of your document.
-4. **Save/Export:** \* The editor saves a **Draft** automatically.
+3. **Navigate:** Click on section titles in the left sidebar to quickly jump to different parts of your document.
+4. **Save & Export:** \* **Autosave:** The editor automatically saves your work as a draft in your browser's local storage.
+    * **Custom Naming:** Type a custom filename (e.g., `TODO.md`) into the field next to the Export button.
+    * **Download:** Press `Ctrl + S` (or `Cmd + S`) or click **Export** to download your file.
 
-* Press `Ctrl + S` (or `Cmd + S`) to download your work as a `README.md` file.
 
 ## ⌨️ Keyboard Shortcuts
 
