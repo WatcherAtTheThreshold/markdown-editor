@@ -10,6 +10,7 @@ A minimal, focused Markdown editor built for clarity and speed. This tool provid
 * **Search & Jump:** Integrated search that highlights text and a "jump-to-section" feature to navigate long documents instantly.
 * **Print-Ready Styles:** A custom print engine that formats your Markdown into a clean, professional PDF-ready document.
 * **File Interoperability:** Easily **Import** existing `.md` files or **Export** your work as a `README.md`.
+* **Flexible Exporting:** Includes a dedicated filename field that defaults to README.md for repository convenience, allowing you to name your exports (e.g., TODO.md, CHANGELOG.md) before downloading.
 
 ## 🚀 Getting Started
 
