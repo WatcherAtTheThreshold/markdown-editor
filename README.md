@@ -51,3 +51,8 @@ The editor uses CSS variables for easy theming. You can modify the colors in `st
   --panel: #ffffff; /* Sidebar & Editor background */
 }
 ```
+***
+
+*Last updated: December 2025*
+
+***
