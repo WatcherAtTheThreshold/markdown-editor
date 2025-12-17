@@ -24,9 +24,9 @@ A minimal, focused Markdown editor built for clarity and speed. This tool provid
 
 | Shortcut | Action |
 | -------- | ------ |
-| Export as `README.md` |
-| New line / New list item |
-| Indent list / Code block |
+| <kbd>Ctrl</kbd> + <kbd>S</kbd> | Export as `README.md` |
+| <kbd>Enter</kbd> | New line / New list item |
+| <kbd>Tab</kbd> | Indent list / Code block |
 
 ## 🛠️ Technical Overview
 
