@@ -1,5 +1,5 @@
 import { loadInitialMarkdown, exportMarkdownFile, importMarkdownFile } from './io.js';
-import { saveDraft, loadDraft, clearDraft } from './storage.js';
+import { saveDraft, loadDraft } from './storage.js';
 import { buildSectionIndex, jumpToSection } from './nav.js';
 
 const DRAFT_KEY = 'everything_editor_draft_v1';
@@ -200,11 +200,6 @@ async function init(){
     fileInput.value = '';
   });
 
-  $('#btnReset').addEventListener('click', () => {
-    clearDraft(DRAFT_KEY);
-    toast('Draft cleared');
-    setStatus('Draft cleared');
-  });
 
 
   // Keyboard shortcut: Ctrl/Cmd+S exports
