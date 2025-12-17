@@ -1,5 +1,3 @@
----
-
 # Everything Repo: Markdown Editor
 
 A minimal, focused Markdown editor built for clarity and speed. This tool provides a bridge between a quiet, "Zen-like" writing environment and the power of full Markdown/WYSIWYG editing.
@@ -7,7 +5,7 @@ A minimal, focused Markdown editor built for clarity and speed. This tool provid
 ## ✨ Key Features
 
 * **Dual-Mode Editing:** Seamlessly switch between a **WYSIWYG** (What You See Is What You Get) interface and a raw **Markdown** editor.
-* **Auto-Generated Navigation:** Your document's `##` headings are automatically turned into a clickable table of contents in the sidebar.
+* ~~~~**Auto-Generated Navigation:** Your document's `##` headings are automatically turned into a clickable table of contents in the sidebar.
 * **Local Persistence:** Never lose a word. The editor automatically saves drafts to your browser's `localStorage` as you type.
 * **Search & Jump:** Integrated search that highlights text and a "jump-to-section" feature to navigate long documents instantly.
 * **Print-Ready Styles:** A custom print engine that formats your Markdown into a clean, professional PDF-ready document.
@@ -18,18 +16,17 @@ A minimal, focused Markdown editor built for clarity and speed. This tool provid
 1. **Open the Editor:** Simply open `index.html` in any modern web browser.
 2. **Write:** Start typing in the main pane. Use the toolbar for formatting or type raw Markdown.
 3. **Navigate:** Click on the section titles in the left sidebar to quickly jump to different parts of your document.
-4. **Save/Export:** * The editor saves a **Draft** automatically.
+4. **Save/Export:** \* The editor saves a **Draft** automatically.
+
 * Press `Ctrl + S` (or `Cmd + S`) to download your work as a `README.md` file.
-
-
 
 ## ⌨️ Keyboard Shortcuts
 
 | Shortcut | Action |
-| --- | --- |
-| <kbd>Ctrl</kbd> + <kbd>S</kbd> | Export as `README.md` |
-| <kbd>Enter</kbd> | New line / New list item |
-| <kbd>Tab</kbd> | Indent list / Code block |
+| -------- | ------ |
+| Export as `README.md` |
+| New line / New list item |
+| Indent list / Code block |
 
 ## 🛠️ Technical Overview
 
@@ -51,7 +48,4 @@ The editor uses CSS variables for easy theming. You can modify the colors in `st
   --ink: #141414;   /* Text color */
   --panel: #ffffff; /* Sidebar & Editor background */
 }
-
 ```
-
----
