@@ -116,9 +116,7 @@ function createEditor(initialMarkdown){
     previewStyle: 'tab',
     initialValue: initialMarkdown ?? '',
     usageStatistics: false,
-    hideModeSwitch: false,
-    // eslint-disable-next-line no-undef
-    plugins: [[toastui.Editor.plugin.emoji]]
+    hideModeSwitch: false
   });
 
   // Load last touched time on init
@@ -159,7 +157,7 @@ function refreshSections(markdown){
 }
 
 async function init(){
-  setStatus('LoadingÃ¢â‚¬Â¦');
+  setStatus('Loadingâ€¦');
 
   const draft = loadDraft(DRAFT_KEY);
   const initial = draft ?? await loadInitialMarkdown('./README.md');
@@ -176,7 +174,7 @@ async function init(){
   // Wire buttons
   $('#btnPrint')?.addEventListener('click', () => {
     printMarkdown(editor);
-    toast('Opening print dialogÃ¢â‚¬Â¦');
+    toast('Opening print dialogâ€¦');
   });
 
   $('#btnExport').addEventListener('click', () => {
